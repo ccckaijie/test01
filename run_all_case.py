@@ -10,4 +10,4 @@ if __name__ == '__main__':
     #准备写入测试报告
     file = open(path, "wb")
     #通过第三方的库编写测试报告
-    HTMLTestRunner(stream=file,verbosity=1,title="自动化测试报告",description="Chrome", tester ="陈凯杰").run(suite)
+    HTMLTestRunner(stream=file,verbosity=1,title="自动化测试报告1",description="Chrome", tester ="陈凯杰").run(suite)
